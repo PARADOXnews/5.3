@@ -1,0 +1,161 @@
+* {
+   font-family: lato;
+   box-sizing: border-box;
+   text-transform: capitalize;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+main {
+   display: flex;
+   justify-content: center;
+}
+
+.parent {
+   max-width: 1440px;
+   width: 100%;
+   display: flex;
+
+}
+
+.sidebar {
+   max-width: 104px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #E7EEFF;
+   padding: 12px 28px;
+   gap: 24px;
+}
+
+.sidebar>img:first-child {
+   width: 48px;
+}
+
+.sidebar>img~img {
+   width: 24px;
+}
+
+.glavni {
+   max-width: 1336px;
+   width: 100%;
+}
+
+.header {
+   display: flex;
+   padding: 20px 0px;
+   justify-content: space-between;
+   align-items: center;   background-color: #E7EEFF;
+
+}
+
+.header>div {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+
+}
+
+.header>div>input {
+   border: 0;
+   background-color: inherit;
+   all: unset;
+   color: #000;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+.content {
+   background-color: #FFF;
+   padding: 42px 96px;
+   display: flex;
+   flex-direction: column;
+   gap: 42px;
+}
+.card {
+   display:flex;
+   flex-direction: column;
+   gap:42px;
+}
+
+.info {
+   display: flex;
+   justify-content: end;
+   gap: 30px;
+
+}
+
+.info>p {
+   border-radius: 16px;
+   background-color: #E7EEFF;
+   display: flex;
+   padding: 8px 24px 8px 12px;
+   align-items: center;
+   gap: 12px;
+}
+
+.info>p>img {
+   vertical-align: middle;
+}
+.zeda {
+   display:flex;
+gap:42px;}
+
+.zeda>div {
+   display: flex;
+   flex-direction: column;
+   max-width: 353px;
+   width: 100%;
+}
+
+.text {
+   border-radius: 0px 0px 24px 24px;
+   background: #E7EEFF;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+   padding: 8px 12px;
+}
+
+.text>p {
+   margin: 0;
+   color: #000;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   /* 166.667% */
+}
+
+.text>p:last-child {
+   color: #606060;
+}
+
+.qveda{
+   display:flex;
+gap:42px;}
+
+.qveda>div {
+   display: flex;
+   flex-direction: column;
+   max-width: 353px;
+   width: 100%;
+}
